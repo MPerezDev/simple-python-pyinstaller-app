@@ -1,18 +1,9 @@
 # simple-python-pyinstaller-app
 
-This repository is for the
-[Build a Python app with PyInstaller](https://jenkins.io/doc/tutorials/build-a-python-app-with-pyinstaller/)
-tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).
+Este repositorio es para el tutorial [Construir una aplicación Python con PyInstaller](https://jenkins.io/doc/tutorials/build-a-python-app-with-pyinstaller/) en la [Documentación de Usuario de Jenkins](https://jenkins.io/doc/).
 
-The repository contains a simple Python application which is a command line tool "add2vals" that outputs the addition of two values. If at least one of the
-values is a string, "add2vals" treats both values as a string and instead
-concatenates the values. The "add2" function in the "calc" library (which
-"add2vals" imports) is accompanied by a set of unit tests. These are tested with pytest to check that this function works as expected and the results are saved
-to a JUnit XML report.
+El repositorio contiene una aplicación simple de Python que es una herramienta de línea de comandos llamada "add2vals" que muestra la suma de dos valores. Si al menos uno de los valores es una cadena de texto, "add2vals" trata ambos valores como cadenas y en su lugar los concatena. La función "add2" en la librería "calc" (que importa "add2vals") está acompañada por un conjunto de pruebas unitarias. Estas pruebas son evaluadas con pytest para verificar que esta función funcione según lo esperado y los resultados se guardan en un reporte XML de JUnit.
 
-The delivery of the "add2vals" tool through PyInstaller converts this tool into
-a standalone executable file for Linux, which you can download through Jenkins
-and execute at the command line on Linux machines without Python.
+La entrega de la herramienta "add2vals" a través de PyInstaller convierte esta herramienta en un archivo ejecutable independiente para Linux, el cual puedes descargar a través de Jenkins y ejecutar en la línea de comandos en máquinas Linux sin Python.
 
-The `jenkins` directory contains an example of the `Jenkinsfile` (i.e. Pipeline)
-you'll be creating yourself during the tutorial.
+El directorio `jenkins` contiene un ejemplo del archivo `Jenkinsfile` (es decir, Pipeline) que crearás tú mismo durante el tutorial.
